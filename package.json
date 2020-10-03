@@ -1,7 +1,7 @@
 {
   "name": "ws-chat-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Websocket Client-Server Chat example",
   "main": "src/app.js",
   "dependencies": {
     "express": "^4.17.1",
