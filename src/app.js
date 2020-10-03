@@ -16,9 +16,9 @@ app.get('/', async (req, res) => {
 });
 
 console.log('Setting up gateway...');
-new Gateway(server, 'gateway');
+new Gateway(server);
 
 console.log('Starting server...');
-app.listen(8080, '0.0.0.0', () => {
+server.listen(8080, '0.0.0.0', () => {
     console.log('Listening on *:8080');
 });

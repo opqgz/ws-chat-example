@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf8">
         <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <title>WebSocket Chat Example</title>
     </head>
     <body>
@@ -9,14 +10,17 @@
             <div id="users">
                 <span class="title">Participants</span>
                 <hr>
-                <div class="user">
-                    <img class="userIcon" src="https://i.pinimg.com/originals/04/7d/fc/047dfc2552d91ae45f5c5362e71f4e43.gif">
-                    <span class="title">127.0.0.1</span>
-                </div>
             </div>
             <div id="messages">
                 <span class="title">Messages</span>
                 <hr>
+                <div class="message">
+                    <img class="messageIcon" src="https://i.pinimg.com/originals/04/7d/fc/047dfc2552d91ae45f5c5362e71f4e43.gif">
+                    <div class="messageContentWrapper">
+                        <div class="messageAuthor" style="color: #009dcc;">Gateway</div>
+                        <div class="messageContent" style="color: #00cc6d;">Welcome! Talk with other participants and have fun!</div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="form">
