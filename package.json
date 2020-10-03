@@ -1,0 +1,26 @@
+{
+  "name": "ws-chat-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luminate-D/ws-chat-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luminate-D/ws-chat-example/issues"
+  },
+  "homepage": "https://github.com/Luminate-D/ws-chat-example#readme"
+}

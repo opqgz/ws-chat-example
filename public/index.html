@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf8">
+        <link rel="stylesheet" href="./style.css">
+        <title>WebSocket Chat Example</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="users">
+                <span class="title">Participants</span>
+                <hr>
+                <div class="user">
+                    <img class="userIcon" src="https://i.pinimg.com/originals/04/7d/fc/047dfc2552d91ae45f5c5362e71f4e43.gif">
+                    <span class="title">127.0.0.1</span>
+                </div>
+            </div>
+            <div id="messages">
+                <span class="title">Messages</span>
+                <hr>
+            </div>
+        </div>
+        <div class="form">
+            <input type="text" id="text">
+            <button id="send">Send</button>
+        </div>
+
+        <script src="./js/client.js"></script>
+    </body>
+</html>

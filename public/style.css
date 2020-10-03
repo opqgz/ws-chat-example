@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2f2f2f;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: #3f3f3f;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 5px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.user {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 5px;
+    background-color: #363636;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.userIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0 20px;
+}
+
+.user > .title {
+    justify-content: start;
+    align-items: center;
+    line-height: 24px;
+}
+
+#users {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 400px;
+    height: 100%;
+    border: 2px solid #292929;
+    box-sizing: border-box;
+}
+
+#messages {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #292929;
+    box-sizing: border-box;
+}
+
+#text {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-left: 5px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #393939;
+}
+
+#send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #393939;
+}
+
+#send:hover {
+    background-color: #3d3d3d;
+}
+
+#send:active {
+    background-color: #3f3f3f;
+}
